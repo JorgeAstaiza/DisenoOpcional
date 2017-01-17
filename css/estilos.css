@@ -1,0 +1,95 @@
+html {
+  font-size: 15px; }
+
+.bienvenidos {
+  background-image: url("../imagenes/fondo-bienvenidos.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+
+.container {
+  margin: 0;
+  padding: 0; }
+
+.fixed-top {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%; }
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 1.5rem; }
+
+.navbar-toggler {
+  font-size: 1.6rem;
+  color: white !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  text-align: center; }
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover {
+  color: #fffdfd !important; }
+
+.texto-bienvenido {
+  color: #fff;
+  margin-top: 12rem; }
+
+.btn-primary {
+  background-color: #f05f40;
+  border-color: #dcd3d1; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #f38972;
+  border-color: #dcd3d1; }
+
+/*Quienes somos*/
+.quienes-somos {
+  background-color: #f05f40;
+  color: white; }
+
+.mx-auto {
+  display: block; }
+
+.servicios .fa {
+  color: #F05F40;
+  font-size: 5rem; }
+
+.footer {
+  background-color: #4B4B4B; }
+
+.amenu {
+  color: white; }
+
+.ndir {
+  color: #5284ff; }
+
+.dir,
+.tel {
+  color: white; }
+
+.facebook,
+.instagram,
+.twitter {
+  font-size: 30px;
+  margin-right: 10px;
+  color: white; }
+
+.fa {
+  color: white; }
+
+.span {
+  display: none; }
+
+.logo {
+  width: 200px; }
+
+/*media querys*/
+@media (min-width: 768px) {
+  .bienvenidos {
+    background-image: url("../imagenes/fondo-bienvenido-grande.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden; } }
+
+/*# sourceMappingURL=estilos.css.map */
